@@ -1,4 +1,4 @@
-# 👼 Mahiru Shiina Fansite - "The Angel Next Door Spoils Me Rotten"
+# 👼 Mahiru Shiina Bini Guweh tuh🤭 - "The Angel Next Door Spoils Me Rotten"
 
 ![Preview](preview.png)
 
@@ -30,10 +30,9 @@
 - **Deployment:** Vercel
 
 ## 📦 Installation
-
-### 1. Clone the repository
-
 ```bash
+ 1. Clone the repository
+
 git clone https://github.com/nafis/mahiru-fansite.git
 cd mahiru-fansite
 2. Install dependencies
@@ -54,7 +53,7 @@ npm run dev
 # or
 yarn dev
 Open http://localhost:3000 to see the result.
-
+```
 📁 Project Structure
 text
 mahiru-fansite/
@@ -80,6 +79,7 @@ mahiru-fansite/
 ├── lib/
 │   └── mahiru-data.ts      # Images and audio exports
 └── ...
+
 🎮 How to Use
 Chat with Mahiru
 Click the gold chat button in the bottom right corner
@@ -102,7 +102,9 @@ Toggle between Indonesian, English, and Japanese using the language switcher
 
 🔧 Environment Variables
 Variable	Description	Required
+```bash
 GROQ_API_KEY	Your Groq API key for AI chat	Yes
+```
 🚢 Deployment
 Deploy to Vercel
 Push your code to GitHub
@@ -113,9 +115,10 @@ Add environment variable GROQ_API_KEY in Vercel dashboard
 
 Deploy!
 
-bash
+```bash
 # Or using Vercel CLI
 vercel --env GROQ_API_KEY=your_key_here
+```
 📝 Credits
 Character: Mahiru Shiina from "The Angel Next Door Spoils Me Rotten" (Otonari no Tenshi-sama)
 
@@ -134,4 +137,4 @@ If anyone calls this karbit, I'm ready to debate! 😤
 📄 License
 This project is for personal/fan use only. All rights belong to their respective owners.
 
-<div align="center"> Made with <span style="color: red;">❤️</span> by Nafis <br /> <sub>My Bini Guweh, not karbit! 🙄</sub> </div> ```
+<div align="center"> Made with <span style="color: red;">❤️</span> by Nafis <br /> <sub>My Bini Guweh, not karbit! 🙄</sub> </div>

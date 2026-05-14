@@ -54,6 +54,7 @@ npm run dev
 yarn dev
 Open http://localhost:3000 to see the result.
 ```
+```bash
 📁 Project Structure
 text
 mahiru-fansite/
@@ -79,7 +80,7 @@ mahiru-fansite/
 ├── lib/
 │   └── mahiru-data.ts      # Images and audio exports
 └── ...
-
+```
 🎮 How to Use
 Chat with Mahiru
 Click the gold chat button in the bottom right corner

@@ -17,7 +17,7 @@
 
 ## 🚀 Live Demo
 
-[Coming Soon] - Deployed on Vercel
+https://mahiru-six.vercel.app - Deployed on Vercel
 
 ## 🛠️ Tech Stack
 

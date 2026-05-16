@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { motion, AnimatePresence } from 'framer-motion'; // Menggunakan framer-motion
-import { Volume2, VolumeX, Music } from 'lucide-react';
-import { mahiruAudio } from '@/lib/mahiru-data.ts';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Volume2, VolumeX } from 'lucide-react';
+import { mahiruAudio } from '@/lib/mahiru-data'; // ← HAPUS .ts
 
 export default function AudioPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -36,7 +36,6 @@ export default function AudioPlayer() {
       }
     };
 
-    // Ini kunci agar "langsung nyala" begitu user klik di mana saja dalam website
     document.addEventListener('click', playAudio, { once: true });
     
     return () => {
@@ -76,7 +75,6 @@ export default function AudioPlayer() {
           )}
         </AnimatePresence>
 
-        {/* Pulsing Ring Effect saat musik nyala */}
         {isPlaying && (
           <motion.div 
             initial={{ scale: 1, opacity: 0.5 }}
@@ -87,7 +85,6 @@ export default function AudioPlayer() {
         )}
       </motion.button>
 
-      {/* Visualizer & Tooltip */}
       <AnimatePresence>
         {isPlaying ? (
           <motion.div 
@@ -110,7 +107,7 @@ export default function AudioPlayer() {
             <motion.div 
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
-              className="bg-[#D4AF37] text-white text-[9px] uppercase font-bold tracking-[0.2em] px-3 py-1.5 rounded-full shadow-lg"
+              className="bg-[#D4AF37] text-white text-[9px] uppercase font-bold tracking-[0.2em] px-3 py-1.5 rounded-full shadow-lg whitespace-nowrap"
             >
               Click anywhere to play music
             </motion.div>
